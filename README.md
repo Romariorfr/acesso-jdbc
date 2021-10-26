@@ -46,5 +46,5 @@ private static Properties loadProperties() {
 	}
 ```
 
-A file was created in the root of the project called db.properties, containing the settings for the database. The loadProperties method is responsible for reading this file and returning an object of type Properties
+A file was created in the project root called _db.properties_, containing the database settings. The _loadProperties_ method is responsible for reading this file and returning an object of type Properties that will be passed as a parameter in the getConnection function for connection to the database.
 
